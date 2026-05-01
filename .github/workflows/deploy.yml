@@ -39,6 +39,9 @@ jobs:
           GITHUB_DOMAIN: no
         run: npm run build:site
 
+      - name: Add custom domain
+        run: echo "900k.ru" > dist-site/CNAME   
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
