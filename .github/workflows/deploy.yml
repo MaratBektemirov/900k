@@ -40,7 +40,7 @@ jobs:
         run: npm run build:site
 
       - name: Add custom domain
-        run: echo "900k.ru" > dist-site/CNAME   
+        run: echo "www.900k.ru" > dist-site/CNAME   
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
