@@ -1,0 +1,17 @@
+{
+  "name": "900k-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:site": "vite --config site/vite.config.ts",
+    "build:site": "vite build --config site/vite.config.ts"
+  },
+  "dependencies": {
+    "cruzo": "0.9.801"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.0"
+  }
+}
