@@ -110,7 +110,7 @@ export class SiteRootComponent extends AbstractComponent {
           </header>
 
           <section class="big-title">
-            <h1>development</h1>
+            <h1>Development</h1>
           </section>
 
           <section class="headline">
